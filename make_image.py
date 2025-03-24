@@ -1,9 +1,8 @@
 import os, math, colorsys
 from pdf2image import convert_from_path
 from PIL import Image, ImageDraw, ImageFont
-font_file = "CommunardRegular.otf"
 
-from archive_congfig3 import text_bits, default_frame_duration, color_increments, path, use_background, diagonal_text
+from config import text_bits, default_frame_duration, color_increments, path, use_background, diagonal_text
 # Crop image to a centered square.
 
 def draw_diagonal_text(image, text, font_path, font_size, fill, bg_fill, angle):
