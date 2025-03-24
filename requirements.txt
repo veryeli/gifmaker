@@ -1,0 +1,4 @@
+pdf2image
+# import for pillow
+pillow
+imageio

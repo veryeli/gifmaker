@@ -1,0 +1,6 @@
+.DS_Store
+old_configs/
+.venv/
+tekmil/
+*.pyc
+
